@@ -5,4 +5,3 @@ RUN apt install python3-pip -y
 RUN pip3 install flask
 COPY ./myapp/ /home/myapp/
 EXPOSE 80
-CMD /home/myapp/app.py
