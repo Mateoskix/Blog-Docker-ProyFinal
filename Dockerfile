@@ -6,4 +6,5 @@ RUN pip3 install flask
 RUN apt install git -y
 WORKDIR /home/myapp
 RUN git clone https://github.com/Mateoskix/Blog-Docker-ProyFinal
+WORKDIR /home/myapp/Blog-Docker-ProyFinal
 EXPOSE 80
